@@ -1,0 +1,96 @@
+.App {
+    text-align: center;
+}
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.intro-text {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.skills-section {
+    margin: 40px 0;
+}
+
+.skills-titles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.skills-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.skills-columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.progress-bar-container {
+    text-align: left;
+}
+
+.progress-title {
+    font-weight: 500;
+}
+
+.progress-bar-background {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 5px;
+}
+
+.cv-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.cv-button {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.cv-button:hover {
+    background-color: #0056b3;
+}
+
+
