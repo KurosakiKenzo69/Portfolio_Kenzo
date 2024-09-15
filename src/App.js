@@ -18,7 +18,7 @@ import git from "./img/git-svgrepo-com.svg";
 import docker from "./img/docker-svgrepo-com.svg";
 import vbox from "./img/vbox.jpeg";
 import ContactForm from "./components/ContactForm";
-
+import imgCode from "./img/code-1076536_640.jpg";
 
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
 
   return (
     <div className="App">
+      <header>
       <Navbar />
       <div className="intro-section">
         <div className="profile-picture">
@@ -40,13 +41,17 @@ function App() {
               "Développeur junior",
             ]}
           />
-          <h3 className={"presentation"}>
+          <h4 className={"presentation"}>
             Je m'appelle Kenzo VONGKINGKEO. <br /> Passionné par l'informatique
             depuis mon enfance, j'essaie de réaliser des projets qui me plaisent
-            et qui me donne envie de progresser dans ce domaine
-          </h3>
+            et qui me donne envie de progresser dans ce domaine. 
+            <br />
+            <br />
+            <strong>A la recherche d'une opportunité en tant que développeur web full-stack, back-end ou front-end</strong>
+            </h4>
         </div>
       </div>
+      </header>
 
       {/*section compétences*/}
       <h1>Mes compétences</h1>
@@ -174,7 +179,6 @@ function App() {
           }
         ></Skills>
       </div>
-
       <ContactForm/>
     </div>
   );

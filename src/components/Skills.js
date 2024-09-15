@@ -5,7 +5,7 @@ const Skills = ({ title, description, image }) => {
     return (
         <div className="card">
             <img src={ image } alt="" className={'img-card'}/>
-            <h1> {title} </h1>
+            <h1 className="cardTitle"> {title} </h1>
             <p> {description} </p>
         </div>
     );
